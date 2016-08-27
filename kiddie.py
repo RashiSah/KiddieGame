@@ -47,7 +47,7 @@ def lastphase():
 def next():
    print "Now I am going to ask you a general question after your maths work"
    print "Do you know that - on an average, how many people solve these questions??.. umm hmm.. so do you know.. C'mon, make a guess out of any number from 1 to 10"
-   print "Here you will get 6 chances to make a guess. If your answer will not match to the correct number, the next door will permanently gets closed and you will not be able to meet the prince. Ah! Sad :( ... Good luck for the guess work!!"
+   print "Here you will get 10 chances to make a guess. If your answer will not match to the correct number, the next door will permanently gets closed and you will not be able to meet the prince. Ah! Sad :( ... Good luck for the guess work!!"
    code = "%d" % (randint(1,10))
    guess = raw_input("[keypad]> ")
    g = 0
